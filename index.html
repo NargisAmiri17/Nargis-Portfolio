@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nargis Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="navbar">
+      <nav>
+        <div class="logo"><span>💻</span> Nargis | Web Developer</div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#my-projects">My Projects</a></li>
+          <li><a href="#My-skills">My Skills</a></li>
+          <li><a href="#contact-me">Contact Me</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+      <div class="home-left">
+        <h1 class="typing">Hello, I'm Nargis</h1>
+        <p>
+          I'm an aspiring web developer passionate about design, creativity, and
+          solving real-world problems through code.
+        </p>
+      </div>
+
+      <div class="home-right">
+        <div class="photo-frame">
+          <img
+            src="./img/Screenshot_20240604-192145_WhatsApp.jpg"
+            alt="Nargis photo"
+          />
+        </div>
+      </div>
+      <div class="circle-shape"></div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about-me" class="about-section">
+      <div class="about-container">
+        <!-- Left: Text and Skills -->
+        <div class="about-text">
+          <h2>About Me</h2>
+          <p class="fade-in delay1">
+            I'm Nargis Amiri, an aspiring web developer from Afghanistan,
+            passionate about design, technology, and empowering others through
+            code. I love creating websites that are beautiful, functional, and
+            accessible.
+          </p>
+
+          <div class="skill">
+            <div class="skill fade-in delay2">
+              <label>HTML</label>
+              <div class="skill-bar">
+                <div class="skill-fill fill-html"></div>
+              </div>
+            </div>
+
+            <div class="skill fade-in delay3">
+              <label>CSS</label>
+              <div class="skill-bar">
+                <div class="skill-fill fill-css"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Profile Image -->
+        <div class="about-image fade-in delay4">
+          <img
+            src="./img/Screenshot_20240821-154451_Facebook.jpg"
+            alt="Nargis-photo"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="my-projects" class="portfolio-section">
+      <h2 class="Portfolio-tittle fade-in">💻 My Projects</h2>
+      <p class="fade-in delay1">
+        These are some of the projects I've worked on as part of my web
+        development journey. Each one reflects my skills in HTML, CSS, and
+        Responsive design.
+      </p>
+
+      <div class="Portfolio-grid">
+        <div class="project-card fade-in delay1">
+          <img src="./img/Capture3.PNG" alt="project 1" />
+          <h3>University of Oxford</h3>
+          <p>
+            This website was built to simulate an academic university homepage
+            using HTML, CSS, and moder layout practices.
+          </p>
+        </div>
+
+        <div class="project-card fade-in delay2">
+          <img src="./img/2.PNG" alt="project 2" />
+          <h3>Cultural Cities of Afghanistan</h3>
+          <p>
+            A visually engaging site showcasing the rich culture, foods, and
+            traditions of Afghan cities.
+          </p>
+        </div>
+
+        <div class="project-card fade-in delay3">
+          <img src="./img/Capture2.PNG" alt="project 3" />
+          <h3>Welcome to Nargis Theater</h3>
+          <p>
+            An entertainment-style web page built to display fictional theater
+            listings using creative styles and layout.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="My-skills">
+      <h2>My Skills</h2>
+      <div class="skills-container">
+        <!-- Digital Skills -->
+        <div class="skill-box">
+          <h3>Digital Literacy</h3>
+          <ul>
+            <li><i class="fas fa-desktop"></i> ICDL</li>
+            <li><i class="fas fa-network-wired"></i> Internet & Network</li>
+            <li><i class="fas fa-file-word"></i> MS Office</li>
+            <li><i class="fas fa-database"> OAC</i></li>
+          </ul>
+        </div>
+
+        <!-- Programing -->
+        <div class="skill-box">
+          <h3>Programing</h3>
+          <ul>
+            <li><i class="fab fa-html5"></i> HTML</li>
+            <li><i class="fab fa-css3-alt"></i> CSS</li>
+          </ul>
+        </div>
+
+        <!-- Language -->
+        <div class="skill-box">
+          <h3>Language</h3>
+          <ul>
+            <li><i class="fas fa-language"></i> English Grammar</li>
+            <li><i class="fas fa-language"></i> English Writing</li>
+          </ul>
+        </div>
+
+        <!-- Mathematics -->
+        <div class="skill-box">
+          <h3>Mathematics</h3>
+          <ul>
+            <li><i class="fas fa-square-root-alt"></i> Algebra & Arithmetic</li>
+            <li><i class="fas fa-calculator"></i> Problem Solving</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact-me" class="contact-section">
+      <h2>Get in Touch</h2>
+      <p>
+        If you have any questions, want to collaborate, or just want to say
+        hello, feel free to leave me a message! You can also connect with me on
+        social media below.
+      </p>
+
+      <form class="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <input type="text" name="subject" placeholder="subject" />
+        <textarea
+          name="message"
+          placeholder="Your Message"
+          rows="6"
+          required
+        ></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+
+      <div class="social-links">
+        <p>Or reach out through:</p>
+        <a href="https://github.com/NargisAmiri17" target="_blank"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a href="https://linkedin.com/in/NargisAmiri" target="_blank"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a href="https://instagram.com/nargisamiri39" target="_blank"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="mailto:nargisamiri2022@gmail.com"
+          ><i class="fas fa-envelope"></i
+        ></a>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>&copy 2025 Nargis Amiri. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
